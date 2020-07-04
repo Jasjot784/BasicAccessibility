@@ -21,4 +21,6 @@ limitations under the License. -->
     <!-- Checkbox labels -->
     <string name="checkbox_text_jetpack">Enable jetpack</string>
     <string name="checkbox_text_hyperspace">Enable hyperspace</string>
+    <string name="cloudy_image">Cloudy Image</string>
+    <string name="button_image">button_image</string>
 </resources>
