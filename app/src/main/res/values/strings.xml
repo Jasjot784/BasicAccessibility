@@ -23,4 +23,6 @@ limitations under the License. -->
     <string name="checkbox_text_hyperspace">Enable hyperspace</string>
     <string name="cloudy_image">Cloudy Image</string>
     <string name="button_image">button_image</string>
+    <string name="message">Message</string>
+    <string name="enter_your_message">Enter your Message</string>
 </resources>

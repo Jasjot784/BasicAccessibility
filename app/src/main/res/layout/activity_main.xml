@@ -67,5 +67,20 @@
         app:layout_constraintLeft_toLeftOf="@+id/checkbox_hyperspace"
         app:layout_constraintTop_toBottomOf="@+id/checkbox_hyperspace"
         app:srcCompat="@drawable/partly_cloudy" />
+
+    <TextView
+        android:id="@+id/text_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/message"
+        android:labelFor="@+id/edittext_message"
+        app:layout_constraintTop_toBottomOf="@+id/image_partly_cloudy"
+        app:layout_constraintStart_toStartOf="parent"/>
+    <EditText
+        android:id="@+id/edittext_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/text_message"
+        app:layout_constraintStart_toStartOf="parent"/>
     
 </androidx.constraintlayout.widget.ConstraintLayout>
